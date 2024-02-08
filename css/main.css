@@ -1,20 +1,20 @@
 /*
 
-  
-    
+
+
     *****************************************
-    
-    
+
+
     - Fonts
     - General CSS
     - Header
-    - Home/portfolio 
-    - Inner page 
-    - Map/Contact page  
-    - Tooltip 
+    - Home/portfolio
+    - Inner page
+    - Map/Contact page
+    - Tooltip
     - Responsive code
-  
-    
+
+
 */
 
 
@@ -93,17 +93,17 @@ h6              { font-size: .75em; margin: 1.67em 0 }
 h1, h2, h3, h4,
 h5, h6          { font-weight: bolder }
 
-.clearfix:before,  
-.clearfix:after {  
-    content: " ";  
-    display: table;  
-}  
-.clearfix:after {  
-    clear: both;  
-}  
- 
-.clearfix {  
-    *zoom: 1;  
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
 }
 
 
@@ -122,7 +122,7 @@ h5, h6          { font-weight: bolder }
         width: 250px;
         min-height: 100%;
         padding: 0 0 0 50px;
-        background: #ffffff; 
+        background: #ffffff;
         float: left;
         overflow: hidden;
         z-index: 9999;
@@ -130,13 +130,13 @@ h5, h6          { font-weight: bolder }
 
     header .logo{
         margin-top: 20px;
-        
+
     }
-	
+
 	header .logo .logo_full{
         display: block;
     }
-	
+
 	header .logo .logo_mobile{
         display: none;
     }
@@ -260,7 +260,7 @@ h5, h6          { font-weight: bolder }
     background: url('../img/men_icons.png') no-repeat;
 }
 
-#menu_icon{    
+#menu_icon{
     background-position: 0 0;
 }
 .close_menu{
@@ -312,7 +312,7 @@ h5, h6          { font-weight: bolder }
     display: block;
     width: 100%;
     height: 100%;
-    top: 0; 
+    top: 0;
     left: 0;
     background: rgba(255,255,255,0.9);
     opacity: 0;
@@ -368,7 +368,7 @@ h5, h6          { font-weight: bolder }
     display: block;
     width: 100%;
     height: 100%;
-    top: 0; 
+    top: 0;
     left: 0;
     background: rgba(255,255,255,0.9);
     opacity: 0;
@@ -409,9 +409,9 @@ h5, h6          { font-weight: bolder }
 
 /*  Home Page  */
 
-	
+
 .appicon{
-	
+
 	width: 20%;
 	}
 
@@ -513,13 +513,22 @@ h5, h6          { font-weight: bolder }
     background-position: 50% 50%;
 }
 
+.screenshotopbanner12{
+    background: url('../img/zigitbanner.png') no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: 50% 50%;
+}
+
 .screenshotop{
     width: 100%;
     height: 350px;
     overflow: hidden;
     display: block;
     position: relative;
-    
+
 }
 
 .top{
@@ -715,14 +724,14 @@ h5, h6          { font-weight: bolder }
 
 /*  Responsive code  */
 @media (max-width:1099px){
-    
+
     header{
         display: block;
         width: 100%;
         min-height: 100px;
         padding: 0;
         z-index: 9999;
-        background: #ffffff; 
+        background: #ffffff;
         top:0;
         position: fixed;
     }
@@ -730,17 +739,17 @@ h5, h6          { font-weight: bolder }
         margin: 20px 0 0 30px;
         float: left;
         width:120px;
-        
+
     }
-	
+
 	header .logo .logo_full{
         display: none;
     }
-	
+
 	header .logo .logo_mobile{
         display: block;
     }
-       
+
     header .footer{
         display: none;
     }
@@ -749,7 +758,7 @@ h5, h6          { font-weight: bolder }
         float: right;
         margin: 30px 30px 0 0;
     }
-    
+
     header nav{
         width: 100%;
         position: absolute;
@@ -802,7 +811,7 @@ h5, h6          { font-weight: bolder }
 }
 
 @media (max-width:550px){
-    
+
      .main .work{
         width: 100%;
     }
@@ -813,7 +822,7 @@ h5, h6          { font-weight: bolder }
 	display:block;
 	}
 	.appicon{
-		
+
 	width:50%;
 	}
 	.appinfo{
