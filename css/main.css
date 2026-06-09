@@ -575,6 +575,15 @@ h6 {
     background-position: 50% 50%;
 }
 
+.screenshotopbanner_f1edge {
+    background: url('../img/f1edge_banner.png') no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: 50% 50%;
+}
+
 .screenshotopbanner15 {
     background: url('../img/aitierlistbanner.png') no-repeat;
     background-size: cover;
