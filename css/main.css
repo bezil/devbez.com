@@ -385,15 +385,23 @@ h6 {
 
 .main .game {
     display: block;
-    width: 100%;
-    height: auto;
+    width: 44.54545454545455%;
+    height: 280px;
     float: left;
     position: relative;
     overflow: hidden;
+    margin: 0 2.727272727272727% 22px;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, .08);
+    background: #0d111a;
+    box-shadow: 0 24px 80px rgba(0, 0, 0, .22);
 }
 
 .main .game .media {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
     vertical-align: middle;
 }
 
@@ -869,8 +877,34 @@ h6 {
     margin: 0 0 12px;
 }
 
+.contact-card p,
+.contact-card li {
+    color: #dbeafe;
+    font-family: "raleway-regular", arial;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.contact-card a {
+    color: #67e8f9;
+}
+
+.profile-point {
+    width: 74px;
+    height: 74px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 18px;
+    border: 1px solid rgba(103, 232, 249, .35);
+    background: rgba(255, 255, 255, .05);
+}
+
 .section-heading {
     padding: 28px 0 24px;
+}
+
+.section-heading.archive-heading {
+    padding-top: 70px;
 }
 
 .section-heading h2 {
@@ -1184,6 +1218,13 @@ h6 {
 
     .appinfo {
         width: 100%;
+    }
+
+    .main .game {
+        width: 92.72727272727273%;
+        height: 230px;
+        margin: 0 3.636363636363635% 16px;
+        border-radius: 18px;
     }
 
     .home-hero {
