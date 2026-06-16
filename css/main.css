@@ -62,7 +62,7 @@
 
 /*  General CSS*/
 body {
-    background: #fff;
+    background: #07090f;
 }
 
 .wrapper {
@@ -154,7 +154,7 @@ h6 {
         width: 250px;
         min-height: 100%;
         padding: 0 0 0 50px;
-        background: #ffffff;
+        background: #080b12;
         float: left;
         overflow: hidden;
         z-index: 9999;
@@ -316,7 +316,7 @@ h6 {
     box-sizing: border-box;
     position: relative;
     z-index: 55;
-    background: #f6f6f6;
+    background: #07090f;
     clear: both;
 }
 
@@ -691,7 +691,9 @@ h6 {
     font-size: 15px;
     line-height: 22px;
     padding: 60px 30px;
-    background: #fff;
+    background: #0d111a;
+    border: 1px solid rgba(255, 255, 255, .08);
+    border-radius: 28px;
 
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -726,6 +728,265 @@ h6 {
 
 
 
+
+/*  V2 dark portfolio  */
+.home-hero,
+.section-heading,
+.cta-panel,
+.contact-panel {
+    width: 92.72727272727273%;
+    margin: 0 auto;
+}
+
+.home-hero {
+    padding: 90px 0 55px;
+}
+
+.eyebrow {
+    color: #67e8f9;
+    font-family: "raleway-bold", arial;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.home-hero h1,
+.section-heading h2,
+.cta-panel h2,
+.contact-panel h1 {
+    color: #f8fafc;
+    font-family: "raleway-bold", arial;
+    letter-spacing: -1px;
+}
+
+.home-hero h1 {
+    max-width: 920px;
+    font-size: 56px;
+    line-height: 62px;
+    margin: 0 0 24px;
+}
+
+.home-hero p,
+.section-heading p,
+.capability-card p,
+.project-meta,
+.case-study p,
+.case-study li,
+.experience-card li,
+.contact-panel p,
+.link-list a,
+.cert-list li {
+    color: #a8b3c7;
+    font-family: "raleway-regular", arial;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.home-hero .intro {
+    max-width: 760px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 34px;
+}
+
+.hero-actions a,
+.cta-button,
+.contact-panel .contact-link {
+    display: inline-block;
+    color: #f8fafc;
+    font-family: "raleway-bold", arial;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 14px 20px;
+    border: 1px solid rgba(103, 232, 249, .42);
+    border-radius: 999px;
+    background: linear-gradient(135deg, rgba(37, 99, 235, .28), rgba(124, 58, 237, .28));
+}
+
+.hero-actions a.secondary,
+.cta-button.secondary {
+    background: transparent;
+    border-color: rgba(255, 255, 255, .18);
+}
+
+.capability-grid,
+.case-grid,
+.skills-grid,
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    width: 92.72727272727273%;
+    margin: 0 auto 52px;
+}
+
+.case-grid,
+.skills-grid,
+.contact-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.capability-card,
+.case-card,
+.experience-card,
+.skill-card,
+.contact-card,
+.cta-panel,
+.contact-panel {
+    background: linear-gradient(180deg, rgba(17, 24, 39, .92), rgba(8, 11, 18, .95));
+    border: 1px solid rgba(255, 255, 255, .08);
+    border-radius: 24px;
+    box-shadow: 0 24px 80px rgba(0, 0, 0, .28);
+}
+
+.capability-card,
+.case-card,
+.experience-card,
+.skill-card,
+.contact-card {
+    padding: 24px;
+}
+
+.capability-card h3,
+.case-card h3,
+.experience-card h3,
+.skill-card h3,
+.contact-card h3 {
+    color: #f8fafc;
+    font-family: "raleway-semibold", arial;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 12px;
+}
+
+.section-heading {
+    padding: 28px 0 24px;
+}
+
+.section-heading h2 {
+    font-size: 34px;
+    line-height: 42px;
+    margin: 0 0 10px;
+}
+
+.project-meta {
+    display: block;
+    max-width: 90%;
+    margin: 10px auto 0;
+    color: #67e8f9;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.main .game .caption {
+    background: rgba(7, 9, 15, 0.86);
+}
+
+.main .game .caption h1,
+.main .work .caption h1 {
+    color: #f8fafc;
+    border-bottom-color: rgba(103, 232, 249, .45);
+    border-top-color: rgba(103, 232, 249, .45);
+}
+
+.case-study {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.case-study .lead {
+    color: #dbeafe;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 0 34px;
+}
+
+.tag {
+    color: #c4b5fd;
+    font-family: "raleway-semibold", arial;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 8px 12px;
+    border: 1px solid rgba(196, 181, 253, .25);
+    border-radius: 999px;
+    background: rgba(124, 58, 237, .12);
+}
+
+.case-card ul,
+.experience-card ul,
+.skill-card ul,
+.contact-card ul,
+.cert-list {
+    margin: 0;
+    padding-left: 18px;
+}
+
+.timeline {
+    display: grid;
+    gap: 18px;
+    margin: 30px 0;
+}
+
+.experience-card .meta {
+    color: #67e8f9;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.cta-panel,
+.contact-panel {
+    padding: 38px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.link-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 18px;
+}
+
+.link-list a {
+    color: #67e8f9;
+    text-decoration: none;
+}
+
+.content a {
+    color: #67e8f9;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+    color: #f8fafc;
+}
+
+.content p {
+    color: #a8b3c7;
+}
 
 /*  Contact page map  */
 #map .map_adresse {
@@ -803,7 +1064,7 @@ h6 {
         min-height: 100px;
         padding: 0;
         z-index: 9999;
-        background: #ffffff;
+        background: #080b12;
         top: 0;
         position: fixed;
     }
@@ -852,16 +1113,16 @@ h6 {
         width: 100%;
         padding: 30px 0;
         text-align: center;
-        color: #454545;
+        color: #f8fafc;
         font-family: "raleway-regular", arial;
         font-size: 14px;
         text-decoration: none;
-        border-top: 1px solid #f7f5f5;
-        background: #fff;
+        border-top: 1px solid rgba(255, 255, 255, .08);
+        background: #080b12;
     }
 
     header nav ul li a:active {
-        background: #f7f5f5;
+        background: #111827;
     }
 
     #menu_icon,
@@ -888,6 +1149,18 @@ h6 {
     #map {
         margin: 0 !important;
     }
+
+    .home-hero h1 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+
+    .capability-grid,
+    .case-grid,
+    .skills-grid,
+    .contact-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width:550px) {
@@ -911,5 +1184,26 @@ h6 {
 
     .appinfo {
         width: 100%;
+    }
+
+    .home-hero {
+        padding: 56px 0 36px;
+    }
+
+    .home-hero h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .capability-grid,
+    .case-grid,
+    .skills-grid,
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cta-panel,
+    .contact-panel {
+        padding: 24px;
     }
 }
