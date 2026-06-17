@@ -161,20 +161,23 @@ h6 {
     }
 
     header .logo {
-    margin-right: 5%;
+        margin-right: 5%;
         margin-top: 20px;
         background: #080b12;
-        border-radius: 18px;
+        border-radius: 14px;
         overflow: hidden;
+        width: 100px;
     }
 
     header .logo .logo_full {
         display: block;
+        width: 100%;
         background: #080b12;
     }
 
     header .logo .logo_mobile {
         display: none;
+        width: 100%;
     }
 
     header nav ul {
@@ -197,9 +200,16 @@ h6 {
         letter-spacing: 1px;
     }
 
-    header nav ul li a:hover,
+    header nav ul li a:hover {
+        color: #67e8f9;
+    }
+
     header nav ul li a.selected {
-        color: #969595;
+        color: #67e8f9;
+        font-family: "raleway-bold", arial;
+        background: rgba(103, 232, 249, .12);
+        border-radius: 6px;
+        padding: 4px 12px;
     }
 
     header .footer {
@@ -267,7 +277,7 @@ h6 {
     }
 
     header .rights p {
-        color: #454545;
+        color: #a8b3c7;
         font-family: "raleway-regular", arial;
         font-size: 11px;
         letter-spacing: 1px;
@@ -907,6 +917,21 @@ h6 {
     padding: 28px 0 24px;
 }
 
+.work-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.archive-section .game a .caption {
+    opacity: .85;
+}
+
+.archive-section .game a:hover .caption {
+    opacity: 1;
+}
+
 .section-heading.archive-heading {
     padding-top: 70px;
 }
@@ -1241,6 +1266,11 @@ h6 {
     .home-hero h1 {
         font-size: 34px;
         line-height: 42px;
+    }
+
+    .work-section {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
     }
 
     .capability-grid,
