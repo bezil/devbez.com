@@ -161,6 +161,7 @@ h6 {
     }
 
     header .logo {
+    margin-right: 5%;
         margin-top: 20px;
         background: #080b12;
         border-radius: 18px;
@@ -189,7 +190,7 @@ h6 {
     }
 
     header nav ul li a {
-        color: #454545;
+        color: #e3f2fd;
         font-family: "raleway-regular", arial;
         font-size: 14px;
         text-decoration: none;
@@ -1107,6 +1108,7 @@ h6 {
     }
 
     header .logo {
+    margin-right: 5%;
         margin: 20px 0 0 30px;
         float: left;
         width: 120px;
